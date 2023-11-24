@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+    <script src="https://kit.fontawesome.com/60c0a701aa.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+    
+        body {
+            background: rgba(89, 88, 88, 0.936);
+            color: orange;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .navbar {
+            background-color: black;
+        }
+        .navbar a {
+            color: orange;
+        }
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .flex div {
+            flex: 0 0 45%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .flex img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+        }
+        .border {
+            border: 2px dotted black;
+            padding: 20px;
+            text-align: center;
+            margin: 10px;
+        }
+        .quote {
+            font-style: italic;
+            color: rgb(228, 27, 27);
+            margin-top: 0;
+        }
+        button {
+            border: 4px solid orangered;
+            border-radius: 20px;
+            width: 120px;
+            height: 40px;
+            background: black;
+            color: orange;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>THE <i class="fa-solid fa-dumbbell"></i> GYM</h1>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">GYM</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="color: orange;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="flex">
+        <div>
+            <i>ATHLETIC, MUSCLE BUILDING, CARDIO, YOGA</i>
+            <h1>SHAPE YOURSELF</h1>
+            <p>There's a long list of things that may stand in the way of exercise, but it doesn't have to be that way.
+                <br> The only way to really motivate yourself to exercise is to start with one very important step: Don't
+                wait for it.
+                <br> Motivation is never just going to happen. You have to make it happen.</p>
+            <h2 class="quote">NEVER GIVE UP</h2>
+            <button type="button">Start growth</button>
+        </div>
+        <div>
+            <img src="https://i.pinimg.com/236x/f9/a7/a3/f9a7a30e3f6cada77cbd30f47f5a430f.jpg" alt="gym boy">
+        </div>
+    </div>
+    <hr style="color: orange;">
+    <section>
+        <h1>PRICE</h1>
+        <div class="flex">
+            <div class="border">
+                <h2><u>Beginner</u></h2>
+                <p>Cardio-$5</p>
+                <p>Yoga-$5</p>
+                <p>Athletic-$5</p>
+                <p>Muscle building-$8</p>
+                <p>To be number one, you have to train like you’re number two.</p>
+            </div>
+            <div class="border">
+                <h2><u>Intermediate</u></h2>
+                <p>Cardio-$7</p>
+                <p>Yoga-$7</p>
+                <p>Athletic-$7</p>
+                <p>Muscle building-$10</p>
+                <p>The more you sweat in training, the less you bleed in combat.</p>
+            </div>
+            <div class="border">
+                <h2><u>Advanced</u></h2>
+                <p>Cardio-$10</p>
+                <p>Yoga-$10</p>
+                <p>Athletic-$10</p>
+                <p>Muscle building-$15</p>
+                <p>Wake up with determination, go to bed with satisfaction.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
